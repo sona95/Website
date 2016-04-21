@@ -79,7 +79,7 @@ header nav ul li h3 {
 
 
 #home {
-    background: url(img/banner.jpg) no-repeat;
+    background: url(../img/banner.jpg) no-repeat;
     background-size: cover;
     min-height: 670px;
 }
@@ -253,7 +253,7 @@ header nav ul li h3 {
 
 #photo{
     padding: 50px 0;
-    background:url(img/5.jpg) no-repeat 0 0;
+    background:url(../img/5.jpg) no-repeat 0 0;
     min-height:465px;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
