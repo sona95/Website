@@ -1,0 +1,430 @@
+
+html, body {
+    font-size: 100%;
+    background:	#fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+
+header, nav,.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 40px;
+}
+
+nav {
+    height: 64px;
+    margin: 0 auto;
+    float: left;
+}
+
+
+nav ul {
+    overflow: hidden;
+}
+.logo {
+    width: 40%;
+    float: left;
+}
+
+.nav  {
+    font-size: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+}
+
+ nav ul li {
+    float: left;
+    margin-right: 40px;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Audiowide', cursive bold;
+    color: #c3b299;
+}
+header nav ul li a:hover {
+    color: #ffffff;
+}
+
+header nav ul li h3 {
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Audiowide', cursive bold;
+}
+
+
+#home {
+    background: url(img/banner.jpg) no-repeat;
+    background-size: cover;
+    min-height: 670px;
+}
+
+#home .container {
+    padding-top: 300px;
+    text-align: center;
+}
+
+#home .container h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+#home .container p {
+    font-size: 20px;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+#home .container a,
+#works .container .box  a,
+#services .container .boxes .box a {
+    padding: 10px 30px;
+    border: 1px solid #B4976F;
+    background-color: #B4976F;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#home .container a:hover,
+#works .container .box  a:hover,
+#services .container .boxes .box a:hover {
+    border: 1px solid #2C271F;
+    background-color: #2C271F;
+}
+
+
+
+#works {
+    margin: 80px 0;
+}
+
+#works .container .boxes {
+    text-align: justify;
+}
+#works .container .boxes:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+#works .container .box {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#works .container .box img{
+    float: left;
+    height: 192px;
+    width: 100%;
+
+}
+
+#works .container .box .title {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+#works .container .box .title:after{
+    content: '';
+    height: 52px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#works .container .box .title span{
+    padding: 11px;
+    width: 25%;
+    background: #363636;
+    color: #ffffff;
+    font-size: 30px;
+    float: left;
+}
+
+#works .container .box .title p,
+#services .container .boxes .box p{
+    vertical-align: middle;
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+}
+
+#works .container .box .text{
+    float: left;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 15px 0 30px;
+}
+
+#works .container .box .text p,
+#services .container .boxes .box p{
+    text-align: left;
+}
+
+#services{
+    padding: 50px 0;
+}
+
+#services .container h2{
+    font-size: 25px;
+    line-height: 2em;
+    padding-bottom: 20px;
+}
+
+#services .container .boxes {
+    overflow: hidden;
+}
+
+#services .container .boxes .box {
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+}
+
+#services .container .boxes .box img {
+    width: 100%;
+}
+
+#services .container .boxes .box h4 {
+    font-size: 18px;
+    color: #b4976f;
+    line-height: 30px;
+    padding-bottom: 8px;
+}
+
+#services .container .boxes .box p{
+    line-height: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#services .container  aside {
+    float: right;
+    width: 30%;
+}
+
+#services .container aside ul{
+    list-style-type: disc;
+}
+
+#services .container aside ul li {
+    display: block;
+    float:none;
+    padding-top: 0;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+
+#services .container aside ul li a{
+    color: #A8A8A8;
+    text-decoration: none;
+}
+
+#services .container aside ul li a:hover {
+    color: #B4976F;
+}
+
+#photo{
+    padding: 50px 0;
+    background:url(img/5.jpg) no-repeat 0 0;
+    min-height:465px;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#photo .container .boxes .left{
+    float: left;
+    width: 45%;
+}
+
+#photo .container .boxes .left h1{
+    font-size: 3em;
+    color: #fff;
+    margin: 1.5em 0 0;
+    line-height: 1.3em;
+    text-transform: capitalize;
+}
+
+#photo .container .boxes .right {
+    float: right;
+    width: 45%;
+}
+
+#photo .container .boxes .right h4 {
+    font-size: 1.5em;
+    margin-top: 3.5em ;
+    color: #363636;
+}
+
+#photo .container .boxes .right p {
+    margin-top: 1em;
+    color: #FCFCFC;
+    line-height: 1.5em;
+}
+
+
+#testimonials{
+    padding: 50px 0;
+}
+
+#testimonials .container h3{
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #B4976F;
+
+}
+
+#testimonials  ul li .box{
+    overflow: hidden;
+    float: none;
+}
+
+#testimonials  ul li .box .img{
+    width: 140px;
+    float: left;
+}
+
+#testimonials  ul li .box .img img{
+    width: 130px;
+    height: 130px;
+}
+#testimonials .bx-wrapper .bx-viewport {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    left: 0;
+    background: transparent;
+}
+#testimonials  ul li .box .about {
+    width: 200px;
+    line-height: 20px;
+    float: left;
+}
+
+#testimonials  ul li .box .about .rating{
+    text-align: left;
+}
+
+#testimonials  ul li .box .about .rating .stars {
+    display: inline-block;
+    overflow: hidden;
+}
+
+#testimonials  ul li .box .about .rating span {
+    cursor: pointer;
+    float: right;
+}
+
+#testimonials  ul li .box .about .rating span:hover ~ span ,
+#testimonials  ul li .box .about .rating span:hover{
+    color: #B4976F;
+}
+
+#testimonials  ul li .box .about .name{
+    margin: 10px 0;
+}
+
+#testimonials  ul li .box .about .name p{
+    font-size: 14px;
+}
+
+#testimonials  ul li .box .about .name h5{
+    padding-top: 20px;
+}
+
+footer {
+    overflow: hidden;
+    background: #363636;
+}
+
+footer .container .logo{
+    padding: 20px 0;
+    width: 25%;
+}
+
+footer .container .logo .nav{
+    color: #B4976F;
+}
+
+footer .container address {
+    padding-top: 20px;
+    color: #868686;
+    font-size: 14px;
+}
+
+footer .container address a {
+    color: #868686;
+    text-decoration: none;
+}
+
+footer .container nav {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 20px;
+}
+
+footer .container nav ul {
+    overflow: hidden;
+    width: 50%;
+}
+
+footer .container nav ul li h4{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+footer .container nav ul li a{
+    color: #868686;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer .container nav ul li a:hover{
+    color: #ffffff;
+}
+
+footer .container .datark {
+    float: left;
+    width: 40%;
+    padding: 30px;
+}
+
+footer .container .datark p{
+    text-align: right;
+    color: #868686;
+    font-size: 20px;
+}
